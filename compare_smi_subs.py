@@ -71,6 +71,8 @@ class ssh():
         print("====\nDetails of show ipam dp")
         for i in range(len(self.upf_list)):
             print("UPF IP: %s | Used IPv6 Prefix: %s" % (self.upf_list[i], self.upf_ipam_value[i]))
+    def new():
+        pass
         
 
 
